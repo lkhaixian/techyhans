@@ -8,7 +8,9 @@ export const Profile = () => {
             <Row className='profile' style={{background: '#EBEEF2'}}>
                 <Col md={12} className='profile-description'>
                     <Row>
-                        <h1 className='name'>Han Sheng</h1>
+                        <a>
+                            <h1 className='name'>Han Sheng</h1>
+                        </a>
                     </Row>
                     <Row>
                         <h3 className='profession'>Artifical Intelligence | Full Stack Development | Internet of Things | Embedded System</h3>

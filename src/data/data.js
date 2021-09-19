@@ -21,15 +21,38 @@ export const Data = {
     routingImages: [
         {
             name: 'education',
-            src: 'https://i1.wp.com/techyhans.com/wp-content/uploads/2020/10/education.png?fit=768%2C768&ssl=1',
+            src: 'education.png',
         },
         {
             name: 'achievements',
-            src: 'https://i0.wp.com/techyhans.com/wp-content/uploads/2020/10/medal.png?fit=768%2C768&ssl=1',
+            src: 'medal.png',
         },
         {
             name: 'my gallery',
-            src: 'https://i1.wp.com/techyhans.com/wp-content/uploads/2020/10/gallery.jpg?fit=768%2C614&ssl=1',
+            src: 'gallery.jpg',
         }
+    ],
+
+    workingExperiences: [
+        {
+            name: 'skymind',
+            description: 'Junior AI Engineer - Skymind',
+            src: 'skymind.png',
+        },
+        {
+            name: 'keyasic',
+            description: 'RnD Internship - KeyASIC Berhad',
+            src: 'keyasic.jpg',
+        },
+        {
+            name: 'upwork',
+            description: 'Freelancer - Upwork',
+            src: 'upwork.jpg',
+        },
+        {
+            name: 'fungo',
+            description: 'Fungo - Startup Project',
+            src: 'fungo.jpg',
+        },
     ]
 }

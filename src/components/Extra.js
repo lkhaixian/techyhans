@@ -1,6 +1,6 @@
 import {Col, Row} from "antd";
 import {Data} from "../data/data";
-import {RouteImage} from "./routeImage";
+import {RouteImage} from "./RouteImage";
 
 const {routingImages} = Data;
 
