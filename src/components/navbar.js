@@ -1,4 +1,4 @@
-import {Col, Layout, Menu, Row} from 'antd';
+import {Col, Menu, Row} from 'antd';
 import logo from '../data/logo.png'
 import {Data} from '../data/data'
 import '../css/navbar.css';

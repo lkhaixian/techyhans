@@ -1,0 +1,25 @@
+.white-background {
+    background: white;
+}
+
+.robot-pic {
+}
+
+.robot-pic-div {
+    text-align: center
+}
+
+.profile-description > * {
+    padding: 0 15%;
+}
+
+.profile-description-container {
+    padding: 12% 8%;
+}
+
+.introduction {
+    font-size: 2.5vw;
+    text-align: center;
+    display: block;
+    margin-bottom: 0rem;
+}

@@ -1,0 +1,38 @@
+.profile {
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.circle {
+    background: white;
+    border-radius: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+.profile-pic-div {
+    text-align: center
+}
+
+.profile-pic {
+    padding-top: 5%;
+}
+
+.profile-description > * {
+    padding: 0 15%;
+}
+
+.name {
+    padding-top: 40%;
+    padding-bottom: 0;
+
+    font-size: 5vw;
+    display: block;
+    margin-bottom: 0rem;
+}
+
+.profession {
+    padding-top: 0;
+    font-size: 1.5vw;
+}
