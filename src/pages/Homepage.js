@@ -7,6 +7,7 @@ import {WorkingExperience} from "../components/WorkingExperience";
 import {Experience} from "../components/Experience"
 import {Footer} from "../components/Footer"
 import { FooterMenu } from '../components/FooterMenu';
+import { Education } from '../components/Education';
 
 
 export const Homepage = () => {
@@ -16,6 +17,7 @@ export const Homepage = () => {
             <Profile></Profile>
             <ProfileDescription></ProfileDescription>
             <Extra></Extra>
+            <Education/>
             <WorkingExperience></WorkingExperience>
             <Experience></Experience>
             <Footer></Footer>

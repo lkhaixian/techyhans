@@ -15,11 +15,11 @@ export const Profile = () => {
                     <Row>
                         <h3 className='profession'>Artifical Intelligence | Full Stack Development | Internet of Things | Embedded System</h3>
                     </Row>
-                    <Row>
+                    {/* <Row>
                         <Button type="primary" shape="round" style={{'font-size': '1.5vw', height:  '10%', background: '#0bb3e4'}}>
                             About Me
                         </Button>
-                    </Row>
+                    </Row> */}
 
                 </Col>
                 <Col md={12}>

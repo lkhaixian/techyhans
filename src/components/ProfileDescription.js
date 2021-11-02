@@ -8,8 +8,7 @@ export const ProfileDescription = () => {
             <Row className='profile-description-container white-background'>
                 <Col md={12} className='profile-description'>
                     <Row>
-                        <h3 className='introduction'>Hello, I'm AI Enthusiast &<br/>
-                            Full Stack Developer</h3>
+                        <h3 className='introduction'>Hello, I'm AI Enthusiast & Full Stack Developer</h3>
                     </Row>
                     <Row style={{'justify-content': 'center', 'padding-top': '10%'}}>
                         <Col>

@@ -26,14 +26,14 @@ export const FooterMenu = () => {
 
     return (
         <>
-            <Row className='white-background'>
+            <Row className='gray-background' >
                 <Col offset={3} md={13} sm={12}>
-                    <Menu mode='horizontal'>
+                    <Menu mode='horizontal' style={{background: '#EBEEF2'}}>
                         <h3>Copyright <CopyrightCircleOutlined /> 2021 <a href="#home">hanshengliang</a>. All Rights Reserved</h3>
                     </Menu>
                 </Col>
                 <Col offset={3} md={5} sm={12}>
-                    <Menu mode='horizontal'>
+                    <Menu mode='horizontal' style={{background: '#EBEEF2'}}>
                         {socialMediaIcon()}
                     </Menu>
                 </Col>
