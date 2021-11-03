@@ -42,8 +42,8 @@ export const Experience = () => {
                     </h1>
                 </Row>
                 <Row style={{padding: '2% 15%'}}>
-                    <Col md={18} sm={24}>
-                        <div className="skill-mf">
+                    <Col md={24} sm={24}>
+                        <div className="skill-mf" >
                             <p className="title-s">Skill</p>
                             {skillbar}
                         </div>
