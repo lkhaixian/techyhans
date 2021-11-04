@@ -2,7 +2,7 @@
 import React from "react";
 import "../css/workingExperience.css";
 import {Data} from "../data/data";
-import { Container,Row } from "reactstrap";
+import {Col, Container, Row} from "reactstrap";
 import { Fade } from "react-reveal";
 
 // import ExperienceCard from "../components/ExperienceCard";
@@ -31,7 +31,13 @@ export const WorkingExperience = () => {
             </Row> */}
             <Row className="row-grid align-items-center" style={{padding: '2% 15%'}}>
                 {experience.map((data, i) => {
-                    return <ExperienceCard key={i} data={data} />;
+                    return (
+                        <>
+                            <Col lg="4">
+                                <ExperienceCard key={i} data={data} />
+                            </Col>
+                        </>
+                    )
                 })}
             </Row>
         </div>
