@@ -2,7 +2,7 @@ import React from 'react';
 import {Data} from '../data/data';
 import TimelineItem from './TimelineItem';
 import {Row} from "antd"
-import "../css/education.css";
+import "../css/timeline.css";
 
 const {timelineData} = Data
 

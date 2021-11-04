@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/education.css";
+import "../css/timeline.css";
 
 const TimelineItem = ({ data }) => (
     <div className="timeline-item">
