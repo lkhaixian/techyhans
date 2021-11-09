@@ -19,7 +19,7 @@ export const Footer = () => {
                     <img src={logo} alt='logo' style={{width:"80%"}}/>
                 </div>
                 <br/>
-                <h3>Hello! I’m Han Sheng. Experienced in various Artificial Intelligent based project.</h3>
+                <h4>Hello! I’m Han Sheng. Experienced in various Artificial Intelligent based project.</h4>
             </Col>
             <Col md={6} sm={24}>
                 <h2>About me</h2>

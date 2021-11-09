@@ -2,11 +2,10 @@
 import React from "react";
 import "../css/workingExperience.css";
 import {Data} from "../data/data";
-import {Col, Container, Row} from "reactstrap";
-import { Fade } from "react-reveal";
+import {Col,Row} from "reactstrap";
 
 // import ExperienceCard from "../components/ExperienceCard";
-import {ExperienceCard} from "./JobItem";
+import {ExperienceCard} from "./WorkingExperienceItem";
 
 // const {workingExperiences} = Data;
 const {experience} = Data;

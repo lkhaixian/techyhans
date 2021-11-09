@@ -6,7 +6,6 @@ import {
 	CardSubtitle,
 	CardText,
 	CardHeader,
-	Col,
 } from "reactstrap";
 
 import Color from "color-thief-react";

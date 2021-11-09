@@ -1,6 +1,7 @@
 import React from 'react';
+import {TrophyOutlined} from "@ant-design/icons";
 import {Data} from '../data/data';
-import TimelineItem from './TimelineItem';
+import TimelineItem from './AchievementItem';
 import {Row} from "antd"
 import "../css/timeline.css";
 
@@ -11,7 +12,8 @@ const Timeline = () =>
         <><div>
             <Row style={{ padding: '2% 15%' }}>
                 <h1 style={{ color: 'black' }}>
-                    Education
+                    <TrophyOutlined />
+                    Achievement
                 </h1>
             </Row>
             </div>
