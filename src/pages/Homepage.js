@@ -9,6 +9,7 @@ import {Footer} from "../components/Footer"
 import { FooterMenu } from '../components/FooterMenu';
 import Education from '../components/Education';
 import Achievement from '../components/Achievement';
+import Projects from '../components/Project'
 
 
 export const Homepage = () => {
@@ -22,6 +23,7 @@ export const Homepage = () => {
             <Achievement/>
             <WorkingExperience></WorkingExperience>
             <Experience></Experience>
+            <Projects/>
             <Footer></Footer>
             <FooterMenu></FooterMenu>
         </Layout>

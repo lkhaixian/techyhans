@@ -10,29 +10,29 @@ export const FooterMenu = () => {
     const socialMediaIcon = () => (
         <>
             <Item key="facebook" style={{padding: "0 10px"}}>
-                <FacebookOutlined />
+                <FacebookOutlined style={{ fontSize: '1.5vw'}} />
             </Item>
             <Item key="instagram" style={{padding: "0 10px"}}>
-                <InstagramOutlined />
+                <InstagramOutlined style={{ fontSize: '1.5vw'}}/>
             </Item>
             <Item key="youtube" style={{padding: "0 10px"}}>
-                <YoutubeOutlined />
+                <YoutubeOutlined style={{ fontSize: '1.5vw'}}/>
             </Item>
             <Item key="linkedIn" style={{padding: "0 10px"}}>
-                <LinkedinOutlined />
+                <LinkedinOutlined style={{ fontSize: '1.5vw'}}/>
             </Item>
         </>
     );
 
     return (
         <>
-            <Row className='gray-background' >
-                <Col offset={3} md={13} sm={12}>
+            <Row className='gray-background' style={{padding: '0% 5% 0% 15%'}}>
+                <Col span={17}>
                     <Menu mode='horizontal' style={{background: '#EBEEF2'}}>
-                        <h3>Copyright <CopyrightCircleOutlined /> 2021 <a href="#home">hanshengliang</a>. All Rights Reserved</h3>
+                        <h4>Copyright <CopyrightCircleOutlined /> 2021 <a href="#home">hanshengliang</a>. All Rights Reserved</h4>
                     </Menu>
                 </Col>
-                <Col offset={3} md={5} sm={12}>
+                <Col span={7}>
                     <Menu mode='horizontal' style={{background: '#EBEEF2'}}>
                         {socialMediaIcon()}
                     </Menu>

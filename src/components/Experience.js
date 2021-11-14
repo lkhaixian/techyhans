@@ -41,7 +41,7 @@ export const Experience = () => {
                         Because Skills Matters!!!
                     </h1>
                 </Row>
-                <Row style={{padding: '2% 15%'}}>
+                <Row style={{padding: '0% 15% 2% 15%'}}>
                     <Col md={24} sm={24}>
                         <div className="skill-mf" >
                             <p className="title-s">Skill</p>

@@ -13,7 +13,7 @@ export const Footer = () => {
         </Item>)
     }
     return (
-        <Row className='white-background' gutter={16} style={{padding: '5% 15%',background: '#EBEEF2'}}>
+        <Row className='white-background' gutter={16} style={{padding: '4% 15% 2% 15%',background: '#EBEEF2'}}>
             <Col md={6} sm={24}>
                 <div className='logo'>
                     <img src={logo} alt='logo' style={{width:"80%"}}/>
@@ -22,19 +22,19 @@ export const Footer = () => {
                 <h4>Hello! I’m Han Sheng. Experienced in various Artificial Intelligent based project.</h4>
             </Col>
             <Col md={6} sm={24}>
-                <h2>About me</h2>
+                <h3 style={{fontWeight:'bold'}}>About me</h3>
                 <Menu className='navigation navbar-menu' mode='vertical' style={{background: '#EBEEF2'}}>
                     {menuItem(footerMenuAboutMe)}
                 </Menu>
             </Col>
             <Col md={6} sm={24}>
-                <h2>Portfolio</h2>
+                <h3 style={{fontWeight:'bold'}}>Portfolio</h3>
                 <Menu className='navigation navbar-menu' mode='vertical' style={{background: '#EBEEF2'}}>
                     {menuItem(footerMenuPortfolio)}
                 </Menu>
             </Col>
             <Col md={6} sm={24}>
-                <h2>Contact</h2>
+                <h3 style={{fontWeight:'bold'}}>Contact</h3>
                 <Menu className='navigation navbar-menu' mode='vertical' style={{background: '#EBEEF2'}}>
                     {menuItem(footerMenuContact)}
                 </Menu>

@@ -2,7 +2,7 @@ import React from 'react';
 import {ReadOutlined} from "@ant-design/icons";
 import {Data} from '../data/data';
 import TimelineItem from './EducationItem';
-import {Row} from "antd"
+import {Col,Row} from "antd"
 import "../css/timeline.css";
 
 const {timelineData} = Data
@@ -10,11 +10,15 @@ const {timelineData} = Data
 const Timeline = () =>
     timelineData.length > 0 && (
         <><div>
-            <Row style={{ padding: '2% 15%' }}>
-                <h1 style={{ color: 'black' }}>
-                    <ReadOutlined />
-                    Education
-                </h1>
+            <Row style={{ padding: '2% 15% 0% 15%' }}>
+                <Col span={2}>
+                    <ReadOutlined  style={{ fontSize: '4vw', color: '#0088CC'}} />
+                </Col>
+                <Col span={22}>
+                    <h1 style={{ color: 'black', textAlign: 'left'}}>
+                        Education
+                    </h1>
+                </Col>
             </Row>
             </div>
             <div className="timeline-container" style={{ padding: '0% 15%' }}>

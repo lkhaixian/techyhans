@@ -17,16 +17,16 @@ export const Navbar = () => {
     const socialMediaIcon = () => (
         <>
             <Item key="facebook" style={{padding: "0 10px"}}>
-                <FacebookOutlined />
+                <FacebookOutlined style={{ fontSize: '1.5vw'}}/>
             </Item>
             <Item key="instagram" style={{padding: "0 10px"}}>
-                <InstagramOutlined />
+                <InstagramOutlined style={{ fontSize: '1.5vw'}}/>
             </Item>
             <Item key="youtube" style={{padding: "0 10px"}}>
-                <YoutubeOutlined />
+                <YoutubeOutlined style={{ fontSize: '1.5vw'}}/>
             </Item>
             <Item key="linkedIn" style={{padding: "0 10px"}}>
-                <LinkedinOutlined />
+                <LinkedinOutlined style={{ fontSize: '1.5vw'}}/>
             </Item>
         </>
     );
@@ -34,12 +34,12 @@ export const Navbar = () => {
     return (
         <>
             <Row className='header' style={{background: "#EBEEF2"}}>
-                <Col md={5} sm={19}>
+                <Col span={15}>
                     <div className='logo'>
-                        <img src={logo} alt='logo' style={{width:"100%"}}/>
+                        <img src={logo} alt='logo' style={{width:"30%", marginLeft:'10%'}}/>
                     </div>
                 </Col>
-                <Col offset={10} md={9} sm={5}>
+                <Col span={9}>
                     <Menu className='navigation navbar-menu' mode='horizontal' style={{background: "#EBEEF2"}}>
                         {menuItem(navbarMenu)}
                         {socialMediaIcon()}

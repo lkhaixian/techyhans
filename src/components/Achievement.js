@@ -1,8 +1,8 @@
 import React from 'react';
-import {TrophyOutlined} from "@ant-design/icons";
+import {TrophyFilled} from "@ant-design/icons";
 import {Data} from '../data/data';
 import TimelineItem from './AchievementItem';
-import {Row} from "antd"
+import {Col,Row} from "antd"
 import "../css/timeline.css";
 
 const {timelineData} = Data
@@ -10,11 +10,15 @@ const {timelineData} = Data
 const Timeline = () =>
     timelineData.length > 0 && (
         <><div>
-            <Row style={{ padding: '2% 15%' }}>
-                <h1 style={{ color: 'black' }}>
-                    <TrophyOutlined />
-                    Achievement
-                </h1>
+            <Row style={{ padding: '2% 15% 0% 15%' }}>
+                <Col span={2}>
+                    <TrophyFilled style={{  fontSize: '4vw', color: '#FFD700' }} />
+                </Col>
+                <Col span={22}>
+                    <h1 style={{ color: 'black', textAlign: 'left'}}>
+                        Achievement
+                    </h1>
+                </Col>
             </Row>
             </div>
             <div className="timeline-container" style={{ padding: '0% 15%' }}>

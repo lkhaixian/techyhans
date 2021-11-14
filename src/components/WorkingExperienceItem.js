@@ -40,11 +40,11 @@ export const ExperienceCard = ({ data }) => {
 				        )}
 			        </Color>
 			        <CardBody className="py-5" style={{padding: '0% 15%'}}>
-				        <Row style={{ display: 'flex', justifyContent: 'center' }}>
+				        <Row style={{ display: 'flex', justifyContent: 'center', paddingBottom: '4%' }}>
 					        <div>
 						        <img
 							        src={image}
-							        width={"100vw"}
+							        width={"160vw"}
 							        alt={data.companylogo}
 						        />
 					        </div>

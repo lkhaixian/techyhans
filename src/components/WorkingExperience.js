@@ -28,7 +28,7 @@ export const WorkingExperience = () => {
             {/* <Row style={{padding: '2% 10%'}}>
                 {populateJobs}
             </Row> */}
-            <Row className="row-grid align-items-center" style={{padding: '2% 15%'}}>
+            <Row className="row-grid align-items-center" style={{padding: '0% 15% 2% 15%'}}>
                 {experience.map((data, i) => {
                     return (
                         <>

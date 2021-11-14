@@ -168,7 +168,7 @@ export const Data = {
           value: "85"
         }
       ],
-      timelineData: [
+    timelineData: [
         {
           text: 'Wrote my first blog post ever on Medium',
           date: 'March 03 2017',
@@ -234,5 +234,23 @@ export const Data = {
               text: 'Read more'
           }
         }
+    ],
+    projects : [
+        {
+            name: "lorem ipsum",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            link: "https://example.com",
+        },
+        {
+            name: "lorem ipsum",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            github: "https://github.com/1hanzla100",
+        },
+        {
+            name: "lorem ipsum",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            github: "https://github.com/1hanzla100",
+            link: "https://example.com",
+        },
     ]
 };
