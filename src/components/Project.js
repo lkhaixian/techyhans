@@ -12,7 +12,7 @@ const Projects = () => {
         <div className='linear-background'>
             <Row style={{padding: '2% 15% 1% 15%'}}>
                 <div>
-                    <h1 className='introduction-wexp' style={{color: 'white'}}>
+                    <h1 className='introduction-wexp' style={{color: 'white', fontSize: '3vw'}}>
                         Projects Experiences
                     </h1>
                 </div>

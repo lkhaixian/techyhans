@@ -10,7 +10,7 @@ const {skills} = Data
 
 
 
-export const Experience = () => {
+export const Skill = () => {
     const skillbar = skills.map(({id,content,porcentage,value}) => {
         return (
             <React.Fragment key={id}>
@@ -36,7 +36,7 @@ export const Experience = () => {
         <>
             <div className='linear-background-experience'>
                 <Row style={{padding: '2% 15%'}}>
-                    <h1 className='introduction' style={{color: 'black'}}>
+                    <h1 className='introduction' style={{color: 'black', fontSize: '3vw'}}>
                         Why Choose Me?
                         Because Skills Matters!!!
                     </h1>

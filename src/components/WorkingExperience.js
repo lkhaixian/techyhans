@@ -21,7 +21,7 @@ export const WorkingExperience = () => {
     return(
         <div className='linear-background'>
             <Row style={{padding: '2% 15%'}}>
-                <h1 className='introduction-wexp' style={{color: 'white'}}>
+                <h1 className='introduction-wexp' style={{color: 'white', fontSize: '3vw'}}>
                     My working experiences tell more about me
                 </h1>
             </Row>

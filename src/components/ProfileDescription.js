@@ -10,7 +10,7 @@ export const ProfileDescription = () => {
                     <Row>
                         <h3 className='introduction'>Hello, I'm AI Enthusiast & Full Stack Developer</h3>
                     </Row>
-                    <Row style={{'justify-content': 'center', 'padding-top': '10%'}}>
+                    {/* <Row style={{'justify-content': 'center', 'padding-top': '10%'}}>
                         <Col>
                             <center>
                                 <Button type="primary" shape="round" style={{'font-size': '1.5vw', height:  '10%', background: '#0bb3e4'}}>
@@ -18,7 +18,7 @@ export const ProfileDescription = () => {
                                 </Button>
                             </center>
                         </Col>
-                    </Row>
+                    </Row> */}
 
                 </Col>
                 <Col md={12}>

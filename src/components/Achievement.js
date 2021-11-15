@@ -9,13 +9,14 @@ const {timelineData} = Data
 
 const Timeline = () =>
     timelineData.length > 0 && (
-        <><div>
+        <div style={{backgroundColor:"#ffffff"}}>
+            <div>
             <Row style={{ padding: '2% 15% 0% 15%' }}>
-                <Col span={2}>
-                    <TrophyFilled style={{  fontSize: '4vw', color: '#FFD700' }} />
+                <Col span={2} style={{ padding: '1% 2% 0% 2%' }}>
+                    <TrophyFilled style={{  fontSize: '3vw', color: '#FFD700' }} />
                 </Col>
                 <Col span={22}>
-                    <h1 style={{ color: 'black', textAlign: 'left'}}>
+                    <h1 style={{ color: 'black', textAlign: 'left', fontSize: '3vw', padding: '0% 2% 0% 1%'}}>
                         Achievement
                     </h1>
                 </Col>
@@ -26,7 +27,7 @@ const Timeline = () =>
                     <TimelineItem data={data} key={idx} />
                 ))}
             </div>
-        </>
+        </div>
     );
 
 export default Timeline;
